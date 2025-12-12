@@ -5,7 +5,7 @@ export default function VSLBlackV1() {
     const loadPlayerScript = () => {
       if (document.querySelector('script[src*="67ab83909585f22fe50dd8dd"]')) return;
       const script = document.createElement("script");
-      script.src = "https://scripts.converteai.net/51bb56e8-38bf-4e58-87dd-2429e902a5b3/players/67ab83909585f22fe50dd8dd/v4/player.js";
+      script.src = "https://scripts.converteai.net/f1296c1c-d81c-4a10-a3a6-49f9ca56fef6/players/67ab83909585f22fe50dd8dd/v4/player.js";
       script.async = true;
       script.onload = () => {
         console.log("Player script loaded successfully");
