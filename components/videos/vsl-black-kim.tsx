@@ -5,7 +5,7 @@ export default function VSLBlackKim() {
     const loadPlayerScript = () => {
       if (document.querySelector('script[src*="693303dd9f9c59a190cdb3c8"]')) return;
       const script = document.createElement("script");
-      script.src = "https://scripts.converteai.net/51bb56e8-38bf-4e58-87dd-2429e902a5b3/players/693303dd9f9c59a190cdb3c8/v4/player.js";
+      script.src = "https://scripts.converteai.net/f1296c1c-d81c-4a10-a3a6-49f9ca56fef6/players/693303dd9f9c59a190cdb3c8/v4/player.js";
       script.async = true;
       script.onload = () => {
         console.log("Player script loaded successfully");
