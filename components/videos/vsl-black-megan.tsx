@@ -3,9 +3,9 @@ import { useEffect } from "react";
 export default function VSLBlackMegan() {
   useEffect(() => {
     const loadPlayerScript = () => {
-      if (document.querySelector('script[src*="693ac8397980d8500a1521fc"]')) return;
+      if (document.querySelector('script[src*="693ac751b14056e2ac8d9bbd"]')) return;
       const script = document.createElement("script");
-      script.src = "https://scripts.converteai.net/f1296c1c-d81c-4a10-a3a6-49f9ca56fef6/players/693ac8397980d8500a1521fc/v4/player.js";
+      script.src = "https://scripts.converteai.net/f1296c1c-d81c-4a10-a3a6-49f9ca56fef6/players/693ac751b14056e2ac8d9bbd/v4/player.js";
       script.async = true;
       script.onload = () => {
         console.log("Player script loaded successfully");
@@ -19,7 +19,7 @@ export default function VSLBlackMegan() {
     loadPlayerScript();
 
     return () => {
-      const existingScript = document.querySelector('script[src*="693ac8397980d8500a1521fc"]');
+      const existingScript = document.querySelector('script[src*="693ac751b14056e2ac8d9bbd"]');
       if (existingScript) {
         existingScript.remove();
       };
@@ -29,7 +29,7 @@ export default function VSLBlackMegan() {
   return (
     // @ts-expect-error - Player script is not defined in the global scope
     <vturb-smartplayer 
-      id="vid-693ac8397980d8500a1521fc" 
+      id="vid-693ac751b14056e2ac8d9bbd" 
       style={{ 
         width: "100%",
         margin: "0 auto", 
